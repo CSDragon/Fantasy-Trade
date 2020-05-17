@@ -1,0 +1,51 @@
+Fantasy World Trade Simulator
+
+Summary:
+	This program should be able to simulate a fantasy world trade economy. Keeping track of prices for various goods accross the map. By tracking and manipulating 
+
+Core Data:
+
+	Cities:
+		City Resources
+		City Needs
+		City Wealth
+
+	Routes between cities:
+		Travel Type: Land or Sea
+		Distance
+		Dangers
+		Intermediate locations
+		Forgeability of terrain
+		
+	States:
+		Taxes
+		Patrols
+		Road quality
+		Wars and conflict
+			Embargos
+			Road closures
+			Military neds and customers
+		Merchant population
+		Currency
+	
+	Caravans:
+		Purpose
+			Dedicated merchants
+			Merchants following other travelers
+		Defense
+			Guards
+			Weapons
+			Costs of defending
+		Supplies
+			Days of provisions
+		
+
+
+Development order:
+	Create base objects, Cities, Routes, States and Caravans
+	One-directional travel between two sample cities with no passthrough
+	Two-directional travel with cities developing over time.
+	Add route information and hazards, as well as caravan defense and supplies
+	Persistent caravans and multi-city routes
+	State and local laws
+	Merchants looking for city needs
