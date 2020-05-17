@@ -36,8 +36,15 @@ Core Data:
 			Guards
 			Weapons
 			Costs of defending
-		Supplies
+		Inventory
+			Goods
 			Days of provisions
+			
+	Goods:
+		goods types
+		
+	Inventory:
+		Holds a list of goods
 		
 
 
