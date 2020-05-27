@@ -28,3 +28,4 @@ dist/*
 nbproject/*
 settings/*
 saves/*
+nbbuild.xml
