@@ -12,8 +12,11 @@ package solenus.fantasytrade;
 public class Goods 
 {
     private String name;
-    private int quantity;
-    public int weight;
+    private double quantity;
+    public double weight;
+
+    //The type of units the good is sold in, like kilograms, bushels, tons, etc.
+    public String units;
     
     
     public String getName()
@@ -21,19 +24,24 @@ public class Goods
         return name;
     }
     
-    public int getQuantity()
+    public double getQuantity()
     {
         return quantity;
     }
     
-    public void setQuantity(int q)
+    public void setQuantity(double q)
     {
         quantity=q;
     }
     
-    public int getWeight()
+    public double getWeight()
     {
         return weight;
+    }
+    
+    public String getUnits()
+    {
+        return units;
     }
     
     

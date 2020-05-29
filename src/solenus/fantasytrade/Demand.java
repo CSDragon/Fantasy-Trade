@@ -5,17 +5,13 @@
  */
 package solenus.fantasytrade;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Chris
  */
-public class City 
+public class Demand 
 {
-    private int population;
-    private double wealth;
-    //private double demand;
-    
-    private Inventory stockpile;
-    
-    
+    private ArrayList<Need> demands;
 }
