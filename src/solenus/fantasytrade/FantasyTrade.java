@@ -17,6 +17,24 @@ public class FantasyTrade
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        ItemTest();
+        
+        
+        
+    }
+    
+    
+    
+    public static void ItemTest()
+    {
+        for(int i = 0; i<100; i++)
+            ItemDefinition.CreateItemDefinition("test"+i, 0, 0, "butts");
+        
+        System.out.println(ItemDefinition.getItemDefinitionByName("test95").name);
+        for(int i = 0; i<102; i++)
+            System.out.println(ItemDefinition.getItemDefinitionByID(i).name);
+        
     }
     
 }
