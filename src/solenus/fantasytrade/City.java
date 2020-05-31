@@ -5,6 +5,8 @@
  */
 package solenus.fantasytrade;
 
+import solenus.fantasytrade.item.Inventory;
+
 /**
  *
  * @author Chris

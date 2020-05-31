@@ -5,6 +5,8 @@
  */
 package solenus.fantasytrade;
 
+import solenus.fantasytrade.item.ItemDefinition;
+
 /**
  *
  * @author Chris
@@ -29,11 +31,11 @@ public class FantasyTrade
     public static void ItemTest()
     {
         for(int i = 0; i<100; i++)
-            ItemDefinition.CreateItemDefinition("test"+i, 0, 0, "butts");
+            ItemDefinition.CreateItemDefinition("test"+i, 0, 0, "butts", null, "none", -1, ItemDefinition.DEGRADATION_LINEAR);
         
-        System.out.println(ItemDefinition.getItemDefinitionByName("test95").name);
-        for(int i = 0; i<102; i++)
-            System.out.println(ItemDefinition.getItemDefinitionByID(i).name);
+        System.out.println(ItemDefinition.getItemDefinitionByName("test95").unitTypePlural);
+        //for(int i = 0; i<95; i++)
+        //    System.out.println(ItemDefinition.getItemDefinitionByID(i).name);
         
     }
     
